@@ -1,1 +1,1 @@
-# kids-react-js
+# Kids Game ReactJs WebApp
