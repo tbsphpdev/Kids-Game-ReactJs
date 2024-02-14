@@ -1,0 +1,22 @@
+.headerZindex{
+    z-index: 1040;
+}
+
+
+.timerClock{
+    width: 4em;
+    background-color: #31375794;
+    font-size: 2em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    box-shadow: 3px 3px 3px #121423, inset 3px 4px 6px #7e839c94;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    text-shadow: 3px 3px 2px #121423;
+}
+
+.timerClock:hover{
+    color: rgb(255, 255, 255);
+}

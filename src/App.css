@@ -1,0 +1,331 @@
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('assets/fonts/Roboto-Bold.woff2') format('woff2'), url('assets/fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('assets/fonts/Roboto-Medium.woff2') format('woff2'), url('assets/fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('assets/fonts/Roboto-Regular.woff2') format('woff2'), url('assets/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('assets/fonts/Roboto-Light.woff2') format('woff2'), url('assets/fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('assets/fonts/Roboto-Black.woff2') format('woff2'), url('assets/fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('assets/fonts/Roboto-Thin.woff2') format('woff2'), url('assets/fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font family css start */
+
+.font-roboto-bold {
+  font-family: 'Roboto-Bold' !important;
+  font-weight: bold;
+  font-style: normal;
+}
+.font-roboto-medium {
+  font-family: 'Roboto-Medium' !important;
+  font-weight: 500;
+  font-style: normal;
+}
+.font-roboto-black {
+  font-family: 'Roboto-Black' !important;
+  font-weight: 900;
+  font-style: normal;
+}
+.font-roboto-regular {
+  font-family: 'Roboto-Regular' !important;
+  font-weight: normal;
+  font-style: normal;
+}
+.font-roboto-light {
+  font-family: 'Roboto-Light' !important;
+  font-weight: 300;
+  font-style: normal;
+}
+.font-roboto-thin {
+  font-family: 'Roboto-Thin' !important;
+  font-weight: 100;
+  font-style: normal;
+}
+/* Font family css end */
+
+/* Main Css Start */
+body {
+  font-family: 'Roboto-Regular'!important;
+  font-weight: normal;
+  font-style: normal;
+}
+body.authentication-page .homepage-bgimage {
+  background-image: url('./assets/img/bg_img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body.authentication-page {
+  height: 100vh;
+}
+.decoration {
+  text-decoration: none;
+  box-shadow: none;
+  outline: none;
+}
+.decoration:hover,
+.decoration:focus {
+  text-decoration: none;
+  box-shadow: none;
+  outline: none;
+}
+.font16 {
+  font-size: 16px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font12 {
+  font-size: 12px !important;
+}
+.text-dark-black {
+  color: #191919;
+}
+
+
+.gradient-border {
+  border: 2px solid #fff;
+  background: linear-gradient(#fff,#fff) padding-box , linear-gradient(to bottom, #F0A528, #ED292B) border-box;
+}
+.dashed-gradient-border {
+  border: 2px dashed #fff !important;
+  background: linear-gradient(#fff,#fff) padding-box , linear-gradient(to bottom, #F0A528, #ED292B) border-box;
+}
+
+
+
+.btn-navigate{
+  box-shadow: 0px 0px 3px black;
+  border-radius: 8px;
+  padding: 0 6px;
+}
+
+
+
+
+
+
+
+.text-dark-black {
+  color: #191919;
+}
+.startGameWrapper, .joinGameWrapper{
+  background-color: #313757;
+  min-height: 100vh;
+}
+.dateTimeContentBox .customLabel{
+  border:2px solid #C1C3CC;
+  background: #454B67;
+  border-radius: 2px;
+  padding: 5px 20px;
+    font-size: 13px;
+}
+.potraitContent{
+  color:#FFFFFF;
+  text-align: justify;
+  /* padding-right: 4em; */
+}
+.customCard{
+  border: none;
+  border-radius: 0;
+  background-color: #454B67;
+}
+.customCard .card-body{
+  padding: 13px 10px;
+}
+.font12{
+  font-size: 12px;
+}
+.font13{
+  font-size: 13px;
+}
+.startGameBtn {
+  background: linear-gradient(90deg, #ED292B 21.54%, #F0A528 100%);
+  /* border-radius: 2px; */
+  padding: 10px 45px;
+}
+
+.startGameBtn:disabled {
+  background: linear-gradient(90deg, #ed292c6f 21.54%, #f0a7284c 100%);
+  /* border-radius: 2px; */
+  padding: 10px 45px;
+}
+.participantList{
+  border:2px solid #C1C3CC;
+  background-color: #313757;
+  padding: 20px;
+}
+.participantList .customLabel{
+  border:1px solid #C1C3CC;
+  background: #454B67;
+  border-radius: 2px;
+  padding: 7px 10px;
+  font-size:11px
+}
+
+.startGameWrapper .customCard .card-body{
+background-color: #454B67;
+
+}
+
+.startGameWrapper .customCard .card-body{
+border:none
+}
+
+
+#bg-join {
+width:60%
+}
+
+
+.join-form
+{
+  background-color: #454B67;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #bg-join {
+    width:100%
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #bg-join {
+    width:80%
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #bg-join {
+    width:80%
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #bg-join {
+    width:70%
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #bg-join {
+    width:60%
+    }
+}
+
+
+
+#langCont{
+  position: fixed;
+  background: white;
+  width: 3em;
+  border-radius: 3px;
+  right: 1em;
+  bottom:1em;
+  /* opacity: 1; */
+  z-index: 1000;
+}
+
+#langCont > *, #langCont > *>*
+{
+  width:3em
+}
+
+#langCont > *>* {
+  padding-right: 0;
+}
+
+.langDropdown{
+  position: fixed;
+  height: 2em;
+  width: 5em;
+  top:2px;
+}
+/* .langDropdown:hover{
+  outline: none;
+} */
+
+.langDropdown .MuiSelect-select {
+ padding: 0 .5em;
+}
+
+
+.shadowLogo {
+  -webkit-filter: drop-shadow(5px 5px 4px #c1a37dad);
+  filter: drop-shadow(5px 5px 4px #c1a37dad)
+  /* -webkit-filter: drop-shadow(5px 5px 4px #747474ad) */
+}
+
+
+
+/* .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+} */
+
+.tooltipCont .tooltiptext {
+  /* visibility: hidden; */
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0 0;
+  margin: 0;
+  font-size: 8px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 50%;
+  word-wrap:break-word;
+  margin-left: -60px;
+}
+
+.tooltipCont svg {
+  z-index: 1;
+}
+
+.tooltipCont:hover .tooltiptext {
+  visibility: visible;
+}

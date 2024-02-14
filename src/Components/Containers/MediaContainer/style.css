@@ -1,0 +1,71 @@
+.audio-container,
+.image-container,
+.video-container {
+    width: 100%;
+    min-height: 13.8em;
+    /* max-height: 15em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.235);
+    cursor: pointer
+  }
+
+  
+  
+  #audio-app,
+  #image-app,
+  #video-app {
+    height: 6.3em;
+    width: 5.5em;
+    position: relative;
+    border-radius: 50%;
+  }
+  
+  #audio-app:active,
+  #video-app:active {
+    transform: scale(0.9);
+  }
+  
+  .audio-pause,
+  .audio-play,
+  .video-pause,
+  .video-play {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    color:white;
+    display:none;
+    transition: display 1s;
+  }
+
+  /* .video-pause{
+    opacity:0
+  } */
+
+  .audio-pause.active,
+  .audio-play.active,
+  
+  .video-play.active {
+   display:block;
+   transition: display 1s;
+  }
+
+  .video-container:hover .video-pause.active{
+    display:contents;
+    opacity:.5;
+    /* transition: opacity 2s; */
+  }
+  /* .video-app:hover .video-pause .active{
+    display:block;
+    transition: display 1s;
+  } */
+
+  .btnMute {
+    position: fixed;
+    left: 23px;
+    bottom: 25px;
+    opacity: .7;
+    z-index: 1000;
+  }

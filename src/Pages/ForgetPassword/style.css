@@ -1,0 +1,49 @@
+.form-control {
+  border-radius: 2px;
+  border: 1px solid #c2c2c2;
+  background-color: #f5f5f5;
+  padding: 25px 20px;
+}
+
+.form-control::placeholder {
+  font-size: 16px;
+  color: #191919;
+  font-family: 'Roboto-Medium' !important;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.form-group label span {
+  color: red;
+  font-size: 15px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-image: linear-gradient(#f0a528, #ed292b) 1 stretch;
+  background-color: #f5f5f5;
+}
+
+.input-group:focus input[type='password'],
+.input-group:focus-within .input-group-prepend span.input-group-text {
+  box-shadow: none !important;
+  border-image: linear-gradient(#f0a528, #ed292b) 1 stretch;
+  background-color: #f5f5f5;
+}
+
+input[type='password'] {
+  border-right: none;
+}
+.input-group-text {
+  color: #495057;
+  background-color: #f5f5f5;
+  border: 1px solid #c2c2c2;
+  border-left: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.input-group-text {
+  border-top-right-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+}
